@@ -16,7 +16,7 @@ from google.cloud import bigquery
 import googlemaps
 
 PROJECT_ID = "big-query-database"
-API_KEY = 'AIzaSyAB8sAillP1RkDUozwwNo6nPwBQDmR_cGo'
+API_KEY = '********************************************************'
 # client = bigquery.Client(projct = PROJECT_ID)
 
 app = Flask(__name__, template_folder = 'template', static_url_path = '/src/')
